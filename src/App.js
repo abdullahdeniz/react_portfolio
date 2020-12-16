@@ -5,7 +5,8 @@ import {
   Link,
 
 } from 'react-router-dom';
-// import Discover from './components/Popular';
+
+import About from './components/About';
 // import DiscoverBattle from './components/DiscoverBattle';
 // import MyList from './components/MyList';
 // import Popular from './components/Discover';
@@ -43,7 +44,7 @@ class App extends React.Component {
             <Route path="/mylist/">
               <PopularBattle />
             </Route>
-          </Switch> */}
+          </Switch> */ }
         </div>
       </Router>
     );
