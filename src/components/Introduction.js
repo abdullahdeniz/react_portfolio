@@ -4,7 +4,7 @@ import { Router } from 'react-router-dom'
 
 
 
-class Experience extends React.Component {
+class Introduction extends React.Component {
     render () {
         return (
             <Router>
@@ -25,4 +25,4 @@ class Experience extends React.Component {
     }
 }
 
-export default Experience;
+export default Introduction;

@@ -1,57 +1,29 @@
-import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Link,
+import React, { Component } from 'react';
+import './App.css';
+import Sidebar from './components/sidebar'
+import Introduction from './components/introduction'
+import About from './components/About'
+import Projects from './components/projects'
+import Blog from './components/blog'
+import Timeline from './components/timeline'
 
-} from 'react-router-dom';
-import About from './components/About';
-import Experince from './components/Experience';
-import Benevolat from './components/Benevolat'
-
-
-// import DiscoverBattle from './components/DiscoverBattle';
-// import MyList from './components/MyList';
-// import Popular from './components/Discover';
-// import PopularBattle from './components/PopularBattle';
-
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
-      <Router>
-        <div>
-          <nav>
-            <ul>
-              <li><Link to="/">About</Link></li>
-              <li><Link to="/experience/">Experince</Link></li>
-              <li><Link to="/education/">Education</Link></li>
-              <li><Link to="/benevolat/">Benevolat</Link></li>
-            </ul>
-          </nav>
-          {/* <Switch>
-            <Route path="/">
-              <Discover />
-            </Route>
-            <Route path="/battle/">
-              <DiscoverBattle />
-            </Route>
-            <Route path="/popular/">
-              <MyList />
-            </Route>
-            <Route path="/popularbattle/">
-              <Popular />
-            </Route>
-            <Route path="/mylist/">
-              <PopularBattle />
-            </Route>
-          </Switch> */ }
-        </div>
-      </Router>
+      <div id="colorlib-page">
+        <div id="container-wrap">
+          <Sidebar></Sidebar>
+          <div id="colorlib-main">
+            <Introduction></Introduction>
+            <About></About>
+            <Projects></Projects>
+            <Blog></Blog>
+            <Timeline></Timeline>
+          </div>
+      	</div>
+      </div>
     );
   }
 }
+
 export default App;

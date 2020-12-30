@@ -1,7 +1,7 @@
 import React from 'react';
 import { Router } from 'react-router-dom'
 
-class Benevolat extends React.Component{
+class Projects extends React.Component{
     render () {
         return {
         
@@ -10,4 +10,4 @@ class Benevolat extends React.Component{
 };
 
 
-export default Benevolat;
+export default Projects;
