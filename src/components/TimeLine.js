@@ -9,7 +9,20 @@ class Timeline extends React.Component{
         return(
             <Router>
                 <div>   
-                    <p>hello</p>
+                    <ul>
+                        <li>
+                            Albania
+                        </li>
+                        <li>
+                            Chad
+                        </li>
+                        <li>
+                            Togo
+                        </li>
+                        <li>
+                            France
+                        </li>
+                    </ul>
                 </div>
             </Router>
         )
