@@ -6,7 +6,7 @@ class Projects extends React.Component{
         return(
             <Router>
                 <div>   
-                    <p>Les cours </p>
+                    <p>Les Cours </p>
                     <p>Les Formations</p>
                     <p>Les Voyages</p>
                 </div>

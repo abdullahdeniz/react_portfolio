@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Sidebar from './components/sidebar'
-import Introduction from './components/introduction'
+import Sidebar from './components/Sidebar'
+import Introduction from './components/Introduction'
 import About from './components/About'
-import Projects from './components/projects'
-import Blog from './components/blog'
-import Timeline from './components/timeline'
+import Projects from './components/Projects'
+import Blog from './components/Blog'
+import Timeline from './components/Timeline'
 
 class App extends Component {
   render() {
